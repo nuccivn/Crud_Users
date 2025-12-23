@@ -16,9 +16,8 @@ O objetivo foi transitar da lógica de scripts simples para uma aplicação estr
 
 ## 🛡️ Diferenciais do Projeto
 Ao contrário de um CRUD básico, este projeto inclui:
-1. **Validação de Erros:** O uso de `try-catch` permite que o usuário erre a digitação sem que o programa crash.
-2. **Limpeza de Buffer:** Gerenciamento correto do objeto `Scanner` para evitar saltos de linha ou bugs na captura de Strings após números.
-3. **Persistência em Memória:** Organização de dados em tempo de execução.
+1. **Limpeza de Buffer:** Gerenciamento correto do objeto `Scanner` para evitar saltos de linha ou bugs na captura de Strings após números.
+2. **Persistência em Memória:** Organização de dados em tempo de execução.
 
 ## 🚀 Como Executar
 1. Certifique-se de ter o **JDK** instalado.
@@ -26,3 +25,7 @@ Ao contrário de um CRUD básico, este projeto inclui:
 3. Compile o código no terminal:
    ```bash
    javac Main.java
+4. Rode o código no terminal:
+   ```bash
+   java Main.java
+
